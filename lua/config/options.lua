@@ -4,7 +4,7 @@
 
 local opt = vim.opt
 
-opt.guifont = "JetBrainsMonoNL Nerd Font Mono:h16"
+opt.guifont = "JetBrainsMonoNL Nerd Font Mono:h12"
 
 opt.shiftwidth = 4
 opt.tabstop = 4
