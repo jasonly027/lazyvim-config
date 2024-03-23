@@ -4,7 +4,13 @@
 
 local opt = vim.opt
 
+LazyVim.terminal.setup("pwsh")
+
+vim.g.neovide_transparency = 0.97
+
 opt.guifont = "JetBrainsMonoNL Nerd Font Mono:h12"
+
+opt.colorcolumn = "80"
 
 opt.shiftwidth = 4
 opt.tabstop = 4
