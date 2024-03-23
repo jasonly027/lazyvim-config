@@ -4,7 +4,9 @@
 
 local opt = vim.opt
 
-LazyVim.terminal.setup("pwsh")
+if vim.fn.has('win32') then
+    LazyVim.terminal.setup("pwsh")
+end
 
 vim.g.neovide_transparency = 0.97
 
